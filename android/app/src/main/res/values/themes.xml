@@ -31,7 +31,7 @@
     </style>
 
     <!-- Splash Screen Theme -->
-    <style name="Theme.Theme.GeradordeToken.Splash" parent="Theme.Theme.GeradordeToken">
+    <style name="Theme.GeradordeToken.Splash" parent="Theme.GeradordeToken">
         <item name="android:windowBackground">@drawable/splash_background</item>
     </style>
 
