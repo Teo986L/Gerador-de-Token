@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Cores principais do app -->
+    <color name="primary">#FFD700</color>
+    <color name="primary_dark">#B8860B</color>
+    <color name="primary_light">#FFEC80</color>
+    
+    <color name="secondary">#00FF88</color>
+    <color name="accent">#8B5CF6</color>
+    
+    <!-- Cores de fundo -->
+    <color name="background">#0A0E17</color>
+    <color name="background_light">#141928</color>
+    <color name="surface">#1A1F2E</color>
+    
+    <!-- Cores de texto -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#C8D2E6</color>
+    <color name="text_muted">#6B7280</color>
+    
+    <!-- Status colors -->
+    <color name="success">#00FF88</color>
+    <color name="warning">#FFD700</color>
+    <color name="error">#FF4B4B</color>
+    
+    <!-- Transparent -->
+    <color name="transparent">#00000000</color>
+    <color name="semi_transparent">#80000000</color>
+</resources>

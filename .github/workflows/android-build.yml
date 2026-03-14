@@ -1,0 +1,48 @@
+name: Compilar GeradordeToken
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 📥 Baixar código
+      uses: actions/checkout@v4
+      
+    - name: ☕ Configurar Java
+      uses: actions/setup-java@v4
+      with:
+        distribution: 'temurin'
+        java-version: '17'
+        
+    - name: 🤖 Configurar Android SDK
+      uses: android-actions/setup-android@v3
+      
+    - name: 🔧 Dar permissão ao Gradle
+      run: chmod +x android/gradlew
+      
+    - name: 🔧 Limpar cache (opcional)
+      run: |
+        cd android
+        ./gradlew clean
+      
+    - name: 🔧 Atualizar Gradle wrapper
+      run: |
+        cd android
+        ./gradlew wrapper --gradle-version 8.6
+      
+    - name: 🏗️ Compilar APK Debug
+      run: |
+        cd android
+        ./gradlew assembleDebug
+      
+    - name: 📦 Salvar APK
+      uses: actions/upload-artifact@v4
+      with:
+        name: app-debug
+        path: android/app/build/outputs/apk/debug/app-debug.apk

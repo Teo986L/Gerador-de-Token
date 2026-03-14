@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Círculo de fundo -->
+    <path
+        android:fillColor="#1A1F2E"
+        android:pathData="M54,54m-30,0a30,30 0,1 1,60 0a30,30 0,1 1,-60 0"/>
+    
+    <!-- Borda dourada -->
+    <path
+        android:strokeColor="#FFD700"
+        android:strokeWidth="2"
+        android:fillColor="#00000000"
+        android:pathData="M54,54m-28,0a28,28 0,1 1,56 0a28,28 0,1 1,-56 0"/>
+    
+    <!-- T estilizado -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M40,40 L68,40 L68,46 L57,46 L57,68 L51,68 L51,46 L40,46 Z"/>
+    
+    <!-- Linha decorativa verde -->
+    <path
+        android:strokeColor="#00FF88"
+        android:strokeWidth="2"
+        android:fillColor="#00000000"
+        android:pathData="M42,72 Q54,65 66,72"/>
+    
+</vector>
