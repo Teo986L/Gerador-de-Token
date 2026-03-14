@@ -1,0 +1,42 @@
+# Android (pasta android/)
+android/.idea/
+android/.gradle/
+android/local.properties
+android/*.iml
+android/.cxx/
+android/build/
+android/app/build/
+android/app/*.iml
+android/app/debug/
+android/app/release/
+android/captures/
+android/externalNativeBuild/
+android/.navigation/
+
+# iOS (pasta ios/)
+ios/*.xcuserdata
+ios/*.xcworkspace/xcuserdata
+ios/Pods/
+ios/Podfile.lock
+ios/DerivedData/
+ios/*.moved-aside
+ios/*.xcodeproj/xcuserdata
+ios/Profile
+ios/Logs/
+ios/*.hmap
+ios/*.app.dSYM
+ios/*.app
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arquivos de keystore (segredos!)
+*.jks
+*.keystore
+*.keystore.properties
+
+# Logs
+*.log
+logs/
