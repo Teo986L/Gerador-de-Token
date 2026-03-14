@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.TraderBot" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <style name="Theme.GeradordeToken" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Cores primárias -->
         <item name="colorPrimary">@color/primary</item>
         <item name="colorPrimaryVariant">@color/primary_dark</item>
@@ -31,7 +31,7 @@
     </style>
 
     <!-- Splash Screen Theme -->
-    <style name="Theme.TraderBot.Splash" parent="Theme.TraderBot">
+    <style name="Theme.Theme.GeradordeToken.Splash" parent="Theme.Theme.GeradordeToken">
         <item name="android:windowBackground">@drawable/splash_background</item>
     </style>
 
